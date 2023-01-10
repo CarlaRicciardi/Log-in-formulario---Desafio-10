@@ -1,0 +1,5 @@
+-En primer lugar, se debe abrir XAMPP con mySQL en el puerto 3307
+-Luego, abrir mysql Workbench dentro una conexión localhost:3307 con una base de datos llamada db.
+-Correr "node createProductsTable.js" para crear la tabla de productos.
+-Correr "node createMsgsTable.js" para crear la tabla de mensajes.
+-Por ultimo correr "npm start" para arrancar el server
