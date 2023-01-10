@@ -27,6 +27,7 @@ app.use(
         useNewUrlParser: true,
         useUnifiedTopology: true,
       },
+      ttl: 60,
     }),
     secret: 'secretKey',
     resave: false,
